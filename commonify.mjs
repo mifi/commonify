@@ -63,7 +63,7 @@ export async function commonify({ packageName, version: versionIn, scopeName, de
     const pkg = await getNpmPackageJson(`${packageName}@${version}`);
     assert(pkg, `Cannot find package ${packageName} in npm`);
 
-    if (pkg.type !== 'module') {
+    if (pkg.type !== 'module' || pkg.main) {
       console.log(packageName, 'is not a module, skippiung');
       return undefined;
     }
