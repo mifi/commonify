@@ -27,6 +27,8 @@ async function getNpmPackageJson(query) {
 export async function commonify({ packageName, version: versionIn, scopeName, depth = 0, maxDepth = 3, publishNewIfExists = true, ignoreDeps = [], publishCommands = [] }) {
   if (depth > maxDepth) throw new Error('max recursion depth reached');
 
+  assert(!scopeName.includes('@'), 'Do not include @ in the scope name');
+
   console.log('commonify', packageName, versionIn, scopeName);
 
   let version = versionIn;
