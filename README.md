@@ -14,6 +14,9 @@ I made this tool that makes it easy to:
 First create your scope here: https://www.npmjs.com/org/create
 
 ```bash
+git clone https://github.com/mifi/commonify.git
+cd commonify
+
 yarn
 node cli.mjs lowdb 3.0.0 myscope
 ```
