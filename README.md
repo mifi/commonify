@@ -19,6 +19,13 @@ node cli.mjs lowdb 3.0.0 myscope
 ```
 This will create the package `@myscope/3.0.0` and its dependencies ready to publish to npm.
 
+## Example packages
+
+I will publish commonified packages to the `@commonify` scope:
+- `@commonify/lowdb`
+- `@commonify/steno`
+
 ## Todo
 
-Must support dual modules (they also have `"type": "module"` set). Example: https://github.com/yargs/yargs-parser/blob/main/package.json 
+- Must support dual modules (they also have `"type": "module"` set). Example: https://github.com/yargs/yargs-parser/blob/main/package.json 
+- Support already scoped packages
