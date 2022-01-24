@@ -17,7 +17,7 @@ First create your scope here: https://www.npmjs.com/org/create
 yarn
 node cli.mjs lowdb 3.0.0 myscope
 ```
-This will create the package `@myscope/3.0.0` and its dependencies ready to publish to npm.
+This will create the package `@myscope/lowdb` and its dependencies ready to publish to npm.
 
 ## Example packages
 
