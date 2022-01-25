@@ -8,6 +8,7 @@ I made this tool that makes it easy to:
 - Publish it under a custom npm scope
 - Recursively do the same for all dependencies
 
+It is mostly an experiment, and it feels like a step back in terms of the ecosystem moving to ESM, so if anyone has any other great ideas, please submit an issue! I have thought about the possibility of doing something similar to the `node_modules` folder in an npm `postinstall` script.
 
 ## Usage
 
