@@ -27,8 +27,17 @@ This will create the package `@myscope/lowdb` and its dependencies ready to publ
 I will publish commonified packages to the `@commonify` scope:
 - `@commonify/lowdb`
 - `@commonify/steno`
+- `@commonify/execa`
+- `@commonify/strip-final-newline`
+- `@commonify/onetime`
+- `@commonify/mimic-fn`
+- `@commonify/npm-run-path`
+- `@commonify/path-key`
+- `@commonify/is-stream`
 
 ## Todo
 
+- **Support already scoped packages**
 - Must support dual modules (they also have `"type": "module"` set). Example: https://github.com/yargs/yargs-parser/blob/main/package.json 
-- Support already scoped packages
+- Automate when upstream package version updates
+- Auto-generate a list of versions and their version corresponding to upstream version
