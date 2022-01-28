@@ -2,6 +2,8 @@
 
 For us who are still relying on CommonJS, or using Electron [which does not support ESM](https://github.com/electron/electron/issues/21457).
 
+🆕 See also [build-electron](https://github.com/mifi/build-electron)
+
 I made this tool that makes it easy to:
 - Pull any ESM package from npm
 - Transpile it from ESM to CommonJS using babel
